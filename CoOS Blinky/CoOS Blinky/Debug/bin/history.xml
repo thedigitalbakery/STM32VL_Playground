@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=CoOS Blinky.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\CoOS Blinky -TC:\CooCox\CoIDE\configuration\ProgramData\CoOS Blinky/arm-gcc-link.ld -g">
+      <target file="CoOS Blinky.elf" lastModified="13fb2abc981">
+         <source file="..\obj\kernelHeap.o" lastModified="13fb2abbff0"/>
+         <source file="..\obj\core.o" lastModified="13fb2abc04e"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="13fb2abc08c"/>
+         <source file="..\obj\core_cm3.o" lastModified="13fb2abc0da"/>
+         <source file="..\obj\timer.o" lastModified="13fb2abc138"/>
+         <source file="..\obj\utility.o" lastModified="13fb2abc186"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="13fb2abc222"/>
+         <source file="..\obj\task.o" lastModified="13fb2abc27f"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="13fb2abc2ec"/>
+         <source file="..\obj\serviceReq.o" lastModified="13fb2abc33a"/>
+         <source file="..\obj\main.o" lastModified="13fb2abc388"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="13fb2abc405"/>
+         <source file="..\obj\mbox.o" lastModified="13fb2abc453"/>
+         <source file="..\obj\mm.o" lastModified="13fb2abc4a1"/>
+         <source file="..\obj\time.o" lastModified="13fb2abc4ef"/>
+         <source file="..\obj\event.o" lastModified="13fb2abc54d"/>
+         <source file="..\obj\port.o" lastModified="13fb2abc57c"/>
+         <source file="..\obj\queue.o" lastModified="13fb2abc5d9"/>
+         <source file="..\obj\mutex.o" lastModified="13fb2abc627"/>
+         <source file="..\obj\flag.o" lastModified="13fb2abc685"/>
+         <source file="..\obj\arch.o" lastModified="13fb2abc6c3"/>
+         <source file="..\obj\sem.o" lastModified="13fb2abc711"/>
+         <source file="..\obj\hook.o" lastModified="13fb2abc740"/>
+      </target>
+   </processor>
+</history>

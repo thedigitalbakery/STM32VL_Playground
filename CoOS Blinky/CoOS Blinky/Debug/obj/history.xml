@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects\CoOS Blinky\cmsis_boot -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects\CoOS Blinky\CoOS -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects\CoOS Blinky\cmsis -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects\CoOS Blinky\stm_lib\inc -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects\CoOS Blinky\stm_lib -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects\CoOS Blinky -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects\CoOS Blinky\CoOS\portable -ID:\OwnCloud\Projects\STM32VL Discovery\CooCox Projects\CoOS Blinky\CoOS\kernel">
+      <target file="timer.o" lastModified="13fb2abc138">
+         <source file="..\..\..\CoOS\kernel\timer.c" lastModified="13f76ad5e37"/>
+      </target>
+      <target file="mbox.o" lastModified="13fb2abc453">
+         <source file="..\..\..\CoOS\kernel\mbox.c" lastModified="13f76ad5dba"/>
+      </target>
+      <target file="mutex.o" lastModified="13fb2abc627">
+         <source file="..\..\..\CoOS\kernel\mutex.c" lastModified="13f76ad5dcf"/>
+      </target>
+      <target file="event.o" lastModified="13fb2abc54d">
+         <source file="..\..\..\CoOS\kernel\event.c" lastModified="13f76ad5da2"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="13fb2abc405">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="13f76ad3a6d"/>
+      </target>
+      <target file="core_cm3.o" lastModified="13fb2abc0da">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="13f76ad31f4"/>
+      </target>
+      <target file="hook.o" lastModified="13fb2abc740">
+         <source file="..\..\..\CoOS\kernel\hook.c" lastModified="13f76ad5daa"/>
+      </target>
+      <target file="serviceReq.o" lastModified="13fb2abc33a">
+         <source file="..\..\..\CoOS\kernel\serviceReq.c" lastModified="13f76ad5e1e"/>
+      </target>
+      <target file="time.o" lastModified="13fb2abc4ef">
+         <source file="..\..\..\CoOS\kernel\time.c" lastModified="13f76ad5e32"/>
+      </target>
+      <target file="queue.o" lastModified="13fb2abc5d9">
+         <source file="..\..\..\CoOS\kernel\queue.c" lastModified="13f76ad5e0d"/>
+      </target>
+      <target file="kernelHeap.o" lastModified="13fb2abbff0">
+         <source file="..\..\..\CoOS\kernel\kernelHeap.c" lastModified="13f76ad5daf"/>
+      </target>
+      <target file="sem.o" lastModified="13fb2abc711">
+         <source file="..\..\..\CoOS\kernel\sem.c" lastModified="13f76ad5e12"/>
+      </target>
+      <target file="port.o" lastModified="13fb2abc57c">
+         <source file="..\..\..\CoOS\portable\GCC\port.c" lastModified="13f76ad5e52"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="13fb2abc2ec">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="13f76ad3ee9"/>
+      </target>
+      <target file="task.o" lastModified="13fb2abc27f">
+         <source file="..\..\..\CoOS\kernel\task.c" lastModified="13f76ad5e2d"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="13fb2abc222">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="13f76ad31cf"/>
+      </target>
+      <target file="core.o" lastModified="13fb2abc04e">
+         <source file="..\..\..\CoOS\kernel\core.c" lastModified="13f76ad5d93"/>
+      </target>
+      <target file="arch.o" lastModified="13fb2abc6c3">
+         <source file="..\..\..\CoOS\portable\arch.c" lastModified="13f76ad5e47"/>
+      </target>
+      <target file="flag.o" lastModified="13fb2abc685">
+         <source file="..\..\..\CoOS\kernel\flag.c" lastModified="13f76ad5da7"/>
+      </target>
+      <target file="mm.o" lastModified="13fb2abc4a1">
+         <source file="..\..\..\CoOS\kernel\mm.c" lastModified="13f76ad5dc3"/>
+      </target>
+      <target file="utility.o" lastModified="13fb2abc186">
+         <source file="..\..\..\CoOS\kernel\utility.c" lastModified="13f76ad5e3a"/>
+      </target>
+      <target file="startup_stm32f10x_md_vl.o" lastModified="13fb2abc08c">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="13f76ad319c"/>
+      </target>
+      <target file="main.o" lastModified="13fb2abc388">
+         <source file="..\..\..\main.c" lastModified="13fb0d9d650"/>
+      </target>
+   </processor>
+</history>
